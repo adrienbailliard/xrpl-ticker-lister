@@ -1,25 +1,27 @@
-# XRPL Wallet Generator
+# XRPL Ticker Lister
 
-A simple wallet generator for the XRP Ledger.
+A simple ticker lister for the XRP Ledger.
 
 ## What You Get
 
-When you run this script, it will generate a new **XRP Ledger wallet** and display the details in the console: 
-+ Public Address
-+ Secret Key  
+When you run this script, it will generate and display the **top trading pairs** on the XRP Ledger, including: 
++ Volume
++ Number of exchanges
++ Unique buyers & sellers
++ Direct marketplace link
 
-To make configuration easier, the script also generates a **QR code** for each piece of information.
+This allows you to quickly see the most active markets on the XRPL.
 
 ## Installation
 
 1. Clone the repository:
 ```sh
-git clone https://github.com/adrienbailliard/xrpl-wallet-generator.git
+git clone https://github.com/adrienbailliard/xrpl-ticker-lister.git
 ```
 
 2. Navigate to the project folder:
 ```sh
-cd xrpl-wallet-generator
+cd xrpl-ticker-lister
 ```
 
 3. Install dependencies:
