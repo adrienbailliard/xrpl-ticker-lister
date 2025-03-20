@@ -5,7 +5,7 @@ A simple ticker lister for the XRP Ledger.
 ## What You Get
 
 When you run this script, it will generate and display the **top trading pairs** on the XRP Ledger, including: 
-+ Volume
++ Volume (in XRP)
 + Number of exchanges
 + Unique buyers and sellers
 + Direct marketplace link
