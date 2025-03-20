@@ -1,0 +1,6 @@
+{
+	"interval": 7,
+	"maxResults": 50,
+	"minExchanges": 100,
+	"minUniqueBuyersAndSellers": 5
+}
