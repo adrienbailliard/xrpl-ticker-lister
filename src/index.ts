@@ -12,7 +12,7 @@ async function main(): Promise<void>
 {
 	process.stdout.write('\x1B[2J\x1B[3J\x1B[H');
     process.stdout.write('\x1b]0;XRPL Ticker Lister\x07');
-    console.log("XRPL Ticker Lister,\nby Adrien Bailliard\n\n");
+    console.log("A simple ticker lister for the XRP Ledger,\nby Adrien Bailliard\n\n");
 
 
     const request = await axios.get('https://data.xrplf.org/v1/iou/ticker_data/all?interval=' + config.interval + 'd&exclude_amm=true&min_exchanges=' + config.minExchanges);
