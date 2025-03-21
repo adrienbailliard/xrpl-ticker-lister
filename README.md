@@ -37,10 +37,10 @@ npx tsc
 ## Configuration
 
 Before running the script, you can customize its behavior by modifying the `config.json` file:
-+ `interval` - number of days for fetching trading data.
-+ `maxResults` - maximum number of trading pairs to display.
-+ `minExchanges` - minimum number of exchanges required.
-+ `minUniqueBuyersAndSellers` - minimum number of unique buyers and sellers required.
++ `interval` - Number of days for fetching trading data.
++ `maxResults` - Maximum number of trading pairs to display.
++ `minExchanges` - Minimum number of exchanges required.
++ `minUniqueBuyersAndSellers` - Minimum number of unique buyers and sellers required.
 
 Modify these **integer** values to filter and refine the results based on your preferences.
 
